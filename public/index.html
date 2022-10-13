@@ -11,7 +11,7 @@
         <h1>Bienvenido a "LosTaquitos"</h1>
     </div>
     <div>
-        <button></button>
+        <button onclick='window.location="../public/consultarorden.html"'>Consultar tu orden</button>
     </div>
     <div>
         <h2>Ordena tu Orden</h2>
@@ -19,14 +19,18 @@
             <label>Nombre</label>
             <input type="text" placeholder="Ingrese su nombre" name="Nombre" id="nombre" required>
             <label>Apellido</label>
+            <br>
             <input type="text" placeholder="Ingrese tus apellidos" name="Apellido" id="apellido" required>
             <label>Orden</label>
+            <br>
             <select>
+                <option>Elija una opción</option>
                 <option>Tacos al pastor</option>
                 <option>Tacos de canasta</option>
                 <option>Tacos de suadero</option>
                 <option>Tacos de carnitas</option>
             </select>
+            <br>
             <input type="submit" value="Dar Orden">
         </form>
     </div>
