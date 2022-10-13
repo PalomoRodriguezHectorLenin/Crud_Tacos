@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PalomoRodriguezHectorLenin/Crud_Tacos/issues"
   },
-  "homepage": "https://github.com/PalomoRodriguezHectorLenin/Crud_Tacos#readme"
+  "homepage": "https://github.com/PalomoRodriguezHectorLenin/Crud_Tacos#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
